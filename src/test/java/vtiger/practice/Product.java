@@ -54,6 +54,7 @@ public class Product {
 		Assert.assertTrue(productHeader.contains(PRODUCTNAME));
 		
 		hp.logoutApp(driver);
+		System.out.println("Logout Successful");
 		driver.close();
 	}
 
