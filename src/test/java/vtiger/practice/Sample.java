@@ -18,6 +18,6 @@ public class Sample {
 		System.out.println(campaignName);
 		
 		eUtil.writeDataIntoExcelFile("Sample", 3, 3, "Hello");
-		System.out.println("Data Written");
+		System.out.println("Data is   Written");
 	}
 }
