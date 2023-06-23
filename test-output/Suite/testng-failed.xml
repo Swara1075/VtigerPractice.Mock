@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test-Runner-2(failed)">
+    <classes>
+      <class name="vtiger.Campaign.CreateNewCampaignWithProductWithBaseClassTest">
+        <methods>
+          <include name="as"/>
+          <include name="ac"/>
+          <include name="bs"/>
+          <include name="bc"/>
+          <include name="bm"/>
+          <include name="am"/>
+          <include name="createCamapignWithProduct"/>
+        </methods>
+      </class> <!-- vtiger.Campaign.CreateNewCampaignWithProductWithBaseClassTest -->
+      <class name="vtiger.Products.CreateNewProductWithBaseClassTest">
+        <methods>
+          <include name="as"/>
+          <include name="ac"/>
+          <include name="bs"/>
+          <include name="bc"/>
+          <include name="bm"/>
+          <include name="createProduct"/>
+          <include name="am"/>
+        </methods>
+      </class> <!-- vtiger.Products.CreateNewProductWithBaseClassTest -->
+    </classes>
+  </test> <!-- Test-Runner-2(failed) -->
+  <test thread-count="2" parallel="tests" name="Test-Runner-1(failed)">
+    <classes>
+      <class name="vtiger.Campaign.CreateNewCampaignWithProductWithBaseClassTest">
+        <methods>
+          <include name="as"/>
+          <include name="ac"/>
+          <include name="bs"/>
+          <include name="bc"/>
+          <include name="bm"/>
+          <include name="am"/>
+          <include name="createCamapignWithProduct"/>
+        </methods>
+      </class> <!-- vtiger.Campaign.CreateNewCampaignWithProductWithBaseClassTest -->
+      <class name="vtiger.Products.CreateNewProductWithBaseClassTest">
+        <methods>
+          <include name="as"/>
+          <include name="ac"/>
+          <include name="bs"/>
+          <include name="bc"/>
+          <include name="bm"/>
+          <include name="createProduct"/>
+          <include name="am"/>
+        </methods>
+      </class> <!-- vtiger.Products.CreateNewProductWithBaseClassTest -->
+    </classes>
+  </test> <!-- Test-Runner-1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
